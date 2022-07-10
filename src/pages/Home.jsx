@@ -29,7 +29,7 @@ const Home = () => {
                 <hr />
                 <h1>I'm a Frontend <br />
                     Web Developer</h1>
-                <h5>with over 2 years 
+                <h5>With over 2 years 
                     of experience | <br /> i design awesome website & 
                     dynamic web application <br /> using latest tools & 
                     technologies. Passion to learn and  <br /> solve real world 
