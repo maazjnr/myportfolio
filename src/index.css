@@ -656,7 +656,7 @@ a:link{
 @media (max-width: 570px){
   .technologies{
     width: 100%;
-    height: 138vh;
+    height: 140vh;
     background-color: #000000;
     padding: 30px;
     text-align: center;
@@ -668,7 +668,7 @@ a:link{
 
   .aboutMe{
     width: 100%;
-    height: 150vh;
+    height: 155vh;
   background-color: #000000;
    background-size: cover;
    display: grid;
@@ -715,7 +715,7 @@ a:link{
 @media (max-width: 360px) {
   .technologies{
     width: 100%;
-    height: 110vh;
+    height: 130vh;
     background-color: #000000;
     padding: 30px;
     text-align: center;
