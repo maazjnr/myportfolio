@@ -19,9 +19,9 @@ body {
  background-position: center;
  background-size: cover;
  display: flex;
- justify-content: space-around;
+ justify-content: space-between;
  align-items: center;
- padding: 50px 20px;
+ padding: 50px ;
 }
 
 .socialmedia{
@@ -41,12 +41,21 @@ body {
   color: white;
 }
 
+.home-text{
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+ color: rgba(240, 128, 23, 0.998);
+}
+
 .homeImg{
 max-width: 500px;
 
 border-radius: 50px;
 margin-left: 20px;
 }
+
 
 .section1, h1{
   color: rgba(239, 175, 36, 0.998);
@@ -60,8 +69,9 @@ margin-left: 20px;
 }
 
 .section1 p{
-  font-size: 15px;
-  color: white;
+  font-size: 14px;
+  color: rgba(194, 138, 17, 0.998);
+  font-weight: bold;
 }
 
 .section1 hr{
@@ -93,8 +103,7 @@ transition: 0.4s;
 
 
 .btn1:hover{
-  background:transparent;
-  color: black;
+  background:wheat;
 }
 
 .btn2:hover{
@@ -552,7 +561,7 @@ a:link{
     background-position: center;
     display: block;
     width: 100%;
-    height: 110vh;
+    height: 130vh;
     padding: 10px;
   }
 
@@ -568,10 +577,11 @@ a:link{
     font-size: 37px;
   }
 
-  .section1, h5{
+  .section1, p{
     color: rgba(242, 196, 95, 0.998);
     font-size: 10px;
     margin-top: 10px;
+    font-weight: bold;
   }
 
   .btn2{
@@ -668,6 +678,8 @@ a:link{
    padding: 50px;
    overflow-x: hidden;
   }
+
+
 
   
 }

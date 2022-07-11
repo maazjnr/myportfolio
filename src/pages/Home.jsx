@@ -25,20 +25,20 @@ const Home = () => {
             <div className="homepage" data-aos="flip-right">
              <section data-aos="zoom-in" className="section1">
 
-                <p>Hi, my name is Maaz</p>
+                <p style={{color: "white"}}>Hi, my name is Maaz</p>
                 <hr />
                 <h1>I'm a Frontend <br />
                     Web Developer</h1>
-                <h5>With over 2 years 
-                    of experience | <br /> i design awesome website & 
-                    dynamic web application <br /> using latest tools & 
-                    technologies. Passion to learn and  <br /> solve real world 
-                    problems with my skills with the most <br /> useful 
+                <p>With over 2 years 
+                    of experience, i design awesome website & 
+                    dynamic web application using latest tools & 
+                    technologies. <br /> Passion to learn and  solve real world 
+                    problems with my skills  with the most useful 
                      tools and technologies to get the perfect job done.
-                    </h5>
+                    </p>
 
                 <div className="mybtn">
-                    <button className="btn1"><Link style={{color: 'white'}} to="/about">
+                    <button className="btn1"><Link style={{color: '#000'}} to="/about">
                     More About Me</Link></button>
                     <button className="btn2"><Link style={{color: 'white'}} to="/project">
                     My Projects</Link></button>
