@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import HomeImg from '../asset/myNewImg.jpg' ;
 import { motion } from "framer-motion";
-import MaazCV from '../asset/Maazjnr_cv.pdf';
+import MaazCV from '../asset/Maaz Frontend Dev Resume.pdf';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import {Link} from 'react-router-dom';
