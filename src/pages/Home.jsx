@@ -46,7 +46,7 @@ const Home = () => {
 
              </section>
 
-             <section data-aos="flip-down"  className="section2">
+             <section data-aos="zoom-in"  className="section2">
              <img className="homeImg" src={HomeImg} alt="homeImg" />
             <div>
             <button className="my-cv">
