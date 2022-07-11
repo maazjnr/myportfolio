@@ -33,7 +33,7 @@ const Home = () => {
                     of experience, i design awesome website & 
                     dynamic web application using latest tools & 
                     technologies. <br /> Passion to learn and  solve real world 
-                    problems with my skills  with the most useful 
+                    problems with my skills with the most useful 
                      tools and technologies to get the perfect job done.
                     </p>
 
