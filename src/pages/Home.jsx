@@ -47,7 +47,7 @@ const Home = () => {
              </section>
 
              <section data-aos="zoom-in"  className="section2">
-             <img className="homeImg" src={HomeImg} alt="homeImg" />
+             <img className="homeImg" src={HomeImg} loading="lazy" alt="homeImg" />
             <div>
             <button className="my-cv">
                 <a href={MaazCV} download alt="mycv">RESUME</a>

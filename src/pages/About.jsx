@@ -33,7 +33,7 @@ const AboutMe = () => {
         <div className="aboutMe">
             <section data-aos="zoom-in" className="aboutDesc">
                 <div data-aos="flip-right">
-                <img src={AbtImg} alt="aboutImg" />
+                <img src={AbtImg} alt="aboutImg" loading="lazy"/>
 
                 <h4>About Me</h4>
                 <p>I’m well known as Maaz,
@@ -45,7 +45,7 @@ const AboutMe = () => {
             </section>
             <section data-aos="flip-right" className="mygoal">
             <div data-aos="zoom-in">
-                <img src={MyGoalImg} alt="mygoal" />
+                <img src={MyGoalImg} alt="mygoal" loading="lazy" />
 
                 <h4>My Goal</h4>
                 <p>I would love to bring my Design Imagination 
