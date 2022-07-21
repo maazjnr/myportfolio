@@ -5,6 +5,7 @@ import MaazCV from '../asset/Maaz Frontend Dev Resume.pdf';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import {Link} from 'react-router-dom';
+import {RiDownloadCloud2Fill} from 'react-icons/ri';
 
 
 const Home = () => {
@@ -50,7 +51,7 @@ const Home = () => {
              <img className="homeImg" src={HomeImg} loading="lazy" alt="homeImg" />
             <div>
             <button className="my-cv">
-                <a href={MaazCV} download alt="mycv">RESUME</a>
+                <a href={MaazCV} download alt="mycv"> <RiDownloadCloud2Fill/> RESUME</a>
                 </button>
             </div>
 
