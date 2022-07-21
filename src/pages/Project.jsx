@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import styled from "styled-components";
 import ElshadImg from '../image/elshad.jpg';
@@ -9,6 +8,7 @@ import WeatherImg from '../image/weatherapp.jpg';
 import GymImg from '../image/mjgym.jpg';
 import RecipeFood from '../image/recipefood.jpg';
 import Todo from '../image/todo.jpg';
+import Loopstudios from '../image/loopstudios.jpg';
 import Countdown from '../image/countdown.jpg';
 import IncomeTracker from '../image/incometracker.jpg';
 import { Container, Row, Col } from "react-bootstrap";
@@ -114,6 +114,34 @@ const Project = () => {
                         </button>
                         <button className="repo-btn">
                         <a href="https://github.com/maazjnr/maazjnr-maazjnr-meme-generator-" 
+                        style={{color: "white"}}
+                        alt="image-link0" target="_blank">Repo Link</a>
+                        </button>
+                    </div>
+                    </div>
+            </Col>
+
+            <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
+            <div data-aos="fade-left" className="project-1">
+                        <img src={Loopstudios} alt="project1-img"
+                        className="project-image" />
+                    <div className="project-deatils">
+                        <h5>Single Landing Page</h5>
+                        <h6>Design: Frontend Mentor :)</h6>
+                        <h4>Technologies uses:</h4>
+                        <ul>
+                        <li>React Js</li>
+                        <li>Css</li>
+                        </ul>
+
+                        
+                        <button className="demo-btn">
+                        <a href="https://loopstudios0.netlify.app/"
+                        style={{color: "white"}} 
+                        alt="image-link0" target="_blank">Live Demo</a>
+                        </button>
+                        <button className="repo-btn">
+                        <a href="https://github.com/maazjnr/loopstudios" 
                         style={{color: "white"}}
                         alt="image-link0" target="_blank">Repo Link</a>
                         </button>
