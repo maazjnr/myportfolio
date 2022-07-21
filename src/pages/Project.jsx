@@ -6,6 +6,7 @@ import Memegen from '../image/memegen.jpg';
 import Maazsite from '../image/maazartsite.jpg';
 import WeatherImg from '../image/weatherapp.jpg';
 import GymImg from '../image/mjgym.jpg';
+import Tenzie from '../image/tenzie.jpg';
 import RecipeFood from '../image/recipefood.jpg';
 import Todo from '../image/todo.jpg';
 import Loopstudios from '../image/loopstudios.jpg';
@@ -153,26 +154,25 @@ const Project = () => {
 
             <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
             <div data-aos="flip-right" className="project-1">
-                        <img src={WeatherImg} alt="project1-img"
+                        <img src={Tenzie} alt="project1-img"
                         className="project-image" />
                     <div className="project-deatils">
-                        <h5>Search Weather</h5>
-                        <h6>Design: Self inspired :)</h6>
+                        <h5>Tenzie Gmae</h5>
+                        <h6>Design: Scrimba :)</h6>
                         <h4>Technologies uses:</h4>
                         <ul>
                         <li>React Js</li>
                         <li>Css</li>
-                        <li>Api</li>
                         </ul>
 
                         
                         <button className="demo-btn">
-                        <a href="https://maazweather.netlify.app/"
+                        <a href="https://tenziesgamei.netlify.app/"
                         style={{color: "white"}} 
                         alt="image-link0" target="_blank">Live Demo</a>
                         </button>
                         <button className="repo-btn">
-                        <a href="https://github.com/maazjnr/weatherapp" 
+                        <a href="https://github.com/maazjnr/tenzie-game" 
                         style={{color: "white"}}
                         alt="image-link0" target="_blank">Repo Link</a>
                         </button>
