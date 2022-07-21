@@ -328,36 +328,6 @@ const Project = () => {
                     </div>
             </Col>
 
-            <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
-            <div data-aos="flip-up" className="project-1">
-                        <img src={Countdown} alt="project1-img"
-                        className="project-image" />
-                    <div className="project-deatils">
-                        <h5>Simple 1 Year Countdown</h5>
-                        <h6>Design: Self inspired :)</h6>
-                        <h4>Technologies uses:</h4>
-                        <ul>
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>Javascript</li>
-                        </ul>
-
-                        
-                        <button className="demo-btn">
-                        <a href="https://mycountdown0.netlify.app/"
-                        style={{color: "white"}} 
-                        alt="image-link0" target="_blank">Live Demo</a>
-                        </button>
-                        <button className="repo-btn">
-                        <a href="https://github.com/maazjnr/countdown" 
-                        style={{color: "white"}}
-                        alt="image-link0" target="_blank">Repo Link</a>
-                        </button>
-                    </div>
-                    </div>
-            </Col>
-            
-
 
             </Row>
         </Container>

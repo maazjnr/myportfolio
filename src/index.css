@@ -691,7 +691,7 @@ a:link{
 
   .project{
     width: 100%;
-    height: 660vh;
+    height: 640vh;
     background-image: linear-gradient(#000000f0,  #000000f3),
     url(../src/image/home-bg.jpg);
    background-position: center;
