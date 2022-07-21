@@ -122,7 +122,7 @@ const Project = () => {
             </Col>
 
             <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
-            <div data-aos="fade-left" className="project-1">
+            <div data-aos="flip-up" className="project-1">
                         <img src={Loopstudios} alt="project1-img"
                         className="project-image" />
                     <div className="project-deatils">
