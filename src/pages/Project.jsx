@@ -11,7 +11,7 @@ import RecipeFood from '../image/recipefood.jpg';
 import Todo from '../image/todo.jpg';
 import Loopstudios from '../image/loopstudios.jpg';
 import Countdown from '../image/countdown.jpg';
-import IncomeTracker from '../image/incometracker.jpg';
+import Calculator from '../image/calculator.jpg';
 import { Container, Row, Col } from "react-bootstrap";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -302,25 +302,26 @@ const Project = () => {
 
             <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
             <div data-aos="zoom-in" className="project-1">
-                        <img src={IncomeTracker} alt="project1-img"
+                        <img src={Calculator} alt="project1-img"
                         className="project-image" />
                     <div className="project-deatils">
-                        <h5>Income Tracker</h5>
-                        <h6>Design: Tutorial Practical :) (not mobile responsive)</h6>
+                        <h5>Calculator WebApp</h5>
+                        <h6>Design: Tutorial Practical :) </h6>
                         <h4>Technologies uses:</h4>
                         <ul>
                         <li>React Js</li>
+                        <li>Context api</li>
                         <li>Css</li>
                         </ul>
 
                         
                         <button className="demo-btn">
-                        <a href="https://incometracker0.netlify.app/"
+                        <a href="https://maaz-calculator.netlify.app/"
                         style={{color: "white"}} 
                         alt="image-link0" target="_blank">Live Demo</a>
                         </button>
                         <button className="repo-btn">
-                        <a href="https://github.com/maazjnr/income-tracker" 
+                        <a href="https://github.com/maazjnr/calculator" 
                         style={{color: "white"}}
                         alt="image-link0" target="_blank">Repo Link</a>
                         </button>
