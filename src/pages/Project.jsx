@@ -316,7 +316,7 @@ const Project = () => {
 
                         
                         <button className="demo-btn">
-                        <a href="https://maaz-calculator.netlify.app/"
+                        <a href="https://maazjnr-calculator.netlify.app/"
                         style={{color: "white"}} 
                         alt="image-link0" target="_blank">Live Demo</a>
                         </button>
