@@ -12,8 +12,8 @@ const SocialMedia = () => {
       <div  >
         <a style={{color: 'white'}}
           className="instagram"
-          href="https://www.instagram.com/maazjnr/"
-          alt="email"
+          href="https://www.instagram.com/maazscript/"
+          alt="instagram"
         >
           <AiFillInstagram className="insta-icon" /> maazjnr
         </a>
