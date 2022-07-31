@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import HomeImg from '../asset/myNewImg.jpg' ;
 import { motion } from "framer-motion";
-import MaazCV from '../asset/Maaz Frontend Dev Resume.pdf';
+import MaazCV from '../asset/Ademu D. Ishaq Resume.pdf';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import {Link} from 'react-router-dom';
@@ -30,11 +30,11 @@ const Home = () => {
                 <hr />
                 <h1>I'm a Frontend <br />
                     Web Developer</h1>
-                <p>With over 2 years 
-                    of experience, i design awesome website & 
+                <p className="two-years">With over 2 years 
+                    of experience, i design awesome website & <br />
                     dynamic web application using latest tools & 
                     technologies. <br /> Passion to learn and  solve real world 
-                    problems with my skills with the most useful 
+                    problems with my skills with the <br /> most useful
                      tools and technologies to get the perfect job done.
                     </p>
 

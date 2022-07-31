@@ -683,7 +683,12 @@ a:link{
     font-size: 13px;
   }
 
-
+  .section1 p{
+    font-size: 14px;
+    color: rgba(194, 138, 17, 0.998);
+    font-weight: bold;
+    padding: 10px 40px;
+  }
   
 }
 
