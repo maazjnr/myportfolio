@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import ElshadImg from '../image/elshad.jpg';
+import Effectai from '../image/effectai.jpg';
 import EcomImg from '../image/shoeecom.jpg';
 import Memegen from '../image/memegen.jpg';
 import Maazsite from '../image/maazartsite.jpg';
@@ -38,10 +38,10 @@ const Project = () => {
 
             <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
             <div data-aos="flip-right" className="project-1">
-                        <img src={ElshadImg} alt="project1-img"
+                        <img src={Effectai} alt="project1-img"
                         className="project-image" />
                     <div className="project-deatils">
-                        <h5>Elshad Search Food</h5>
+                        <h5>Effectai Delicious </h5>
                         <h6>Design: Self inspired :)</h6>
                         <h4>Technologies uses:</h4>
                         <ul>
@@ -52,12 +52,43 @@ const Project = () => {
 
                         
                         <button className="demo-btn">
-                        <a href="https://el-shadfood.netlify.app/"
+                        <a href="https://effectaifood.netlify.app/"
                         style={{color: "white"}} 
                         alt="image-link0" target="_blank">Live Demo</a>
                         </button>
                         <button className="repo-btn">
-                        <a href="https://github.com/maazjnr/elshad-food" 
+                        <a href="https://github.com/maazjnr/Efectai-Delicious" 
+                        style={{color: "white"}}
+                        alt="image-link0" target="_blank">Repo Link</a>
+                        </button>
+                    </div>
+                    </div>
+            </Col>
+
+            
+            <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
+            <div data-aos="flip-right" className="project-1">
+                        <img src={GymImg} alt="project1-img"
+                        className="project-image" />
+                    <div className="project-deatils">
+                        <h5>Gym Website</h5>
+                        <h6>Design: Javascript Mastery:) 
+                            (responsive only on Large Screen)</h6>
+                        <h4>Technologies uses:</h4>
+                        <ul>
+                        <li>React Js</li>
+                        <li>Material UI</li>
+                        <li>Css</li>
+                        </ul>
+
+                        
+                        <button className="demo-btn">
+                        <a href="https://mjgym.netlify.app/"
+                        style={{color: "white"}} 
+                        alt="image-link0" target="_blank">Live Demo</a>
+                        </button>
+                        <button className="repo-btn">
+                        <a href="https://github.com/maazjnr/gymwebapp" 
                         style={{color: "white"}}
                         alt="image-link0" target="_blank">Repo Link</a>
                         </button>
@@ -123,6 +154,35 @@ const Project = () => {
             </Col>
 
             <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
+            <div data-aos="fade-left" className="project-1">
+                        <img src={Maazsite} alt="project1-img"
+                        className="project-image" />
+                    <div className="project-deatils">
+                        <h5>Mz Art Website</h5>
+                        <h6>Design: Self inspired :)</h6>
+                        <h4>Technologies uses:</h4>
+                        <ul>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Bootstrap</li>
+                        </ul>
+
+                        
+                        <button className="demo-btn">
+                        <a href="https://goalmaazg.netlify.app/"
+                        style={{color: "white"}} 
+                        alt="image-link0" target="_blank">Live Demo</a>
+                        </button>
+                        <button className="repo-btn">
+                        <a href="https://github.com/maazjnr/maazsite" 
+                        style={{color: "white"}}
+                        alt="image-link0" target="_blank">Repo Link</a>
+                        </button>
+                    </div>
+                    </div>
+            </Col>
+
+            <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
             <div data-aos="flip-up" className="project-1">
                         <img src={Loopstudios} alt="project1-img"
                         className="project-image" />
@@ -150,6 +210,35 @@ const Project = () => {
                     </div>
             </Col>
             
+            <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
+            <div data-aos="zoom-in" className="project-1">
+                        <img src={Calculator} alt="project1-img"
+                        className="project-image" />
+                    <div className="project-deatils">
+                        <h5>Calculator WebApp</h5>
+                        <h6>Design: Tutorial Practical :) </h6>
+                        <h4>Technologies uses:</h4>
+                        <ul>
+                        <li>React Js</li>
+                        <li>Context api</li>
+                        <li>Css</li>
+                        </ul>
+
+                        
+                        <button className="demo-btn">
+                        <a href="https://maazjnr-calculator.netlify.app/"
+                        style={{color: "white"}} 
+                        alt="image-link0" target="_blank">Live Demo</a>
+                        </button>
+                        <button className="repo-btn">
+                        <a href="https://github.com/maazjnr/calculator" 
+                        style={{color: "white"}}
+                        alt="image-link0" target="_blank">Repo Link</a>
+                        </button>
+                    </div>
+                    </div>
+            </Col>
+
 
 
             <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
@@ -180,35 +269,7 @@ const Project = () => {
                     </div>
             </Col>
 
-            <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
-            <div data-aos="zoom-in" className="project-1">
-                        <img src={RecipeFood} alt="project1-img"
-                        className="project-image" />
-                    <div className="project-deatils">
-                        <h5>Recipe Food Search</h5>
-                        <h6>Design: Ed Dev :) (not mobile responsive)</h6>
-                        <h4>Technologies uses:</h4>
-                        <ul>
-                        <li>React Js</li>
-                        <li>Css</li>
-                        <li>Styled Components</li>
-                        </ul>
-
-                        
-                        <button className="demo-btn">
-                        <a href="https://recepefood0.netlify.app/"
-                        style={{color: "white"}} 
-                        alt="image-link0" target="_blank">Live Demo</a>
-                        </button>
-                        <button className="repo-btn">
-                        <a href="https://github.com/maazjnr/recipefood" 
-                        style={{color: "white"}}
-                        alt="image-link0" target="_blank">Repo Link</a>
-                        </button>
-                    </div>
-                    </div>
-            </Col>
-
+            
             <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
             <div data-aos="zoom-out" className="project-1">
                         <img src={Todo} alt="project1-img"
@@ -241,94 +302,39 @@ const Project = () => {
 
 
             <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
-            <div data-aos="fade-left" className="project-1">
-                        <img src={Maazsite} alt="project1-img"
+            <div data-aos="zoom-in" className="project-1">
+                        <img src={RecipeFood} alt="project1-img"
                         className="project-image" />
                     <div className="project-deatils">
-                        <h5>Mz Art Website</h5>
-                        <h6>Design: Self inspired :)</h6>
+                        <h5>Recipe Food Search</h5>
+                        <h6>Design: Ed Dev :) (not mobile responsive)</h6>
                         <h4>Technologies uses:</h4>
                         <ul>
-                        <li>Html</li>
+                        <li>React Js</li>
                         <li>Css</li>
-                        <li>Bootstrap</li>
+                        <li>Styled Components</li>
                         </ul>
 
                         
                         <button className="demo-btn">
-                        <a href="https://goalmaazg.netlify.app/"
+                        <a href="https://recepefood0.netlify.app/"
                         style={{color: "white"}} 
                         alt="image-link0" target="_blank">Live Demo</a>
                         </button>
                         <button className="repo-btn">
-                        <a href="https://github.com/maazjnr/maazsite" 
+                        <a href="https://github.com/maazjnr/recipefood" 
                         style={{color: "white"}}
                         alt="image-link0" target="_blank">Repo Link</a>
                         </button>
                     </div>
                     </div>
             </Col>
+
+
+
             
 
-            <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
-            <div data-aos="flip-right" className="project-1">
-                        <img src={GymImg} alt="project1-img"
-                        className="project-image" />
-                    <div className="project-deatils">
-                        <h5>Gym Website</h5>
-                        <h6>Design: Javascript Mastery:) 
-                            (responsive only on Large Screen)</h6>
-                        <h4>Technologies uses:</h4>
-                        <ul>
-                        <li>React Js</li>
-                        <li>Material UI</li>
-                        <li>Css</li>
-                        </ul>
-
-                        
-                        <button className="demo-btn">
-                        <a href="https://mjgym.netlify.app/"
-                        style={{color: "white"}} 
-                        alt="image-link0" target="_blank">Live Demo</a>
-                        </button>
-                        <button className="repo-btn">
-                        <a href="https://github.com/maazjnr/gymwebapp" 
-                        style={{color: "white"}}
-                        alt="image-link0" target="_blank">Repo Link</a>
-                        </button>
-                    </div>
-                    </div>
-            </Col>
-
-            <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
-            <div data-aos="zoom-in" className="project-1">
-                        <img src={Calculator} alt="project1-img"
-                        className="project-image" />
-                    <div className="project-deatils">
-                        <h5>Calculator WebApp</h5>
-                        <h6>Design: Tutorial Practical :) </h6>
-                        <h4>Technologies uses:</h4>
-                        <ul>
-                        <li>React Js</li>
-                        <li>Context api</li>
-                        <li>Css</li>
-                        </ul>
-
-                        
-                        <button className="demo-btn">
-                        <a href="https://maazjnr-calculator.netlify.app/"
-                        style={{color: "white"}} 
-                        alt="image-link0" target="_blank">Live Demo</a>
-                        </button>
-                        <button className="repo-btn">
-                        <a href="https://github.com/maazjnr/calculator" 
-                        style={{color: "white"}}
-                        alt="image-link0" target="_blank">Repo Link</a>
-                        </button>
-                    </div>
-                    </div>
-            </Col>
-
+           
 
             </Row>
         </Container>
