@@ -51,7 +51,7 @@ const Home = () => {
              <img className="homeImg" src={HomeImg} loading="lazy" alt="homeImg" />
             <div>
             <button className="my-cv">
-                <a href={MaazCV} download alt="mycv"> <RiDownloadCloud2Fill/>DoRESUME</a>
+                <a href={MaazCV} download alt="mycv"> <RiDownloadCloud2Fill/>RESUME</a>
                 </button>
             </div>
 
