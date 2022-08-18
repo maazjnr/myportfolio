@@ -4,13 +4,11 @@ import Effectai from '../image/effectai.jpg';
 import EcomImg from '../image/shoeecom.jpg';
 import Memegen from '../image/memegen.jpg';
 import Maazsite from '../image/maazartsite.jpg';
-import WeatherImg from '../image/weatherapp.jpg';
 import GymImg from '../image/mjgym.jpg';
 import Tenzie from '../image/tenzie.jpg';
 import RecipeFood from '../image/recipefood.jpg';
 import Todo from '../image/todo.jpg';
-import Loopstudios from '../image/loopstudios.jpg';
-import Countdown from '../image/countdown.jpg';
+import Gericht from '../image/gericht.jpg';
 import Calculator from '../image/calculator.jpg';
 import { Container, Row, Col } from "react-bootstrap";
 import Aos from "aos";
@@ -89,6 +87,34 @@ const Project = () => {
                         </button>
                         <button className="repo-btn">
                         <a href="https://github.com/maazjnr/gymwebapp" 
+                        style={{color: "white"}}
+                        alt="image-link0" target="_blank">Repo Link</a>
+                        </button>
+                    </div>
+                    </div>
+            </Col>
+
+            <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
+            <div data-aos="flip-up" className="project-1">
+                        <img src={Gericht} alt="project1-img"
+                        className="project-image" />
+                    <div className="project-deatils">
+                        <h5>Website</h5>
+                        <h6>Design: Self Project :)</h6>
+                        <h4>Technologies uses:</h4>
+                        <ul>
+                        <li>React Js</li>
+                        <li>Css</li>
+                        </ul>
+
+                        
+                        <button className="demo-btn">
+                        <a href="https://gerichtres.netlify.app/"
+                        style={{color: "white"}} 
+                        alt="image-link0" target="_blank">Live Demo</a>
+                        </button>
+                        <button className="repo-btn">
+                        <a href="https://github.com/maazjnr/Gericht-Restaurant" 
                         style={{color: "white"}}
                         alt="image-link0" target="_blank">Repo Link</a>
                         </button>
@@ -182,33 +208,6 @@ const Project = () => {
                     </div>
             </Col>
 
-            <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
-            <div data-aos="flip-up" className="project-1">
-                        <img src={Loopstudios} alt="project1-img"
-                        className="project-image" />
-                    <div className="project-deatils">
-                        <h5>Single Landing Page</h5>
-                        <h6>Design: Frontend Mentor :)</h6>
-                        <h4>Technologies uses:</h4>
-                        <ul>
-                        <li>React Js</li>
-                        <li>Css</li>
-                        </ul>
-
-                        
-                        <button className="demo-btn">
-                        <a href="https://loopstudios0.netlify.app/"
-                        style={{color: "white"}} 
-                        alt="image-link0" target="_blank">Live Demo</a>
-                        </button>
-                        <button className="repo-btn">
-                        <a href="https://github.com/maazjnr/loopstudios" 
-                        style={{color: "white"}}
-                        alt="image-link0" target="_blank">Repo Link</a>
-                        </button>
-                    </div>
-                    </div>
-            </Col>
             
             <Col xxl={4} lg={4} md={6} sm={6} xs={12}>
             <div data-aos="zoom-in" className="project-1">
