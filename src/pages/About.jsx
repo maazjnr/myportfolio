@@ -81,9 +81,9 @@ const AboutMe = () => {
 
                 <Col lg={3} md={3} sm={3} xs={6}>
                 <div data-aos="fade-down" className="html">
-                    <img className="pro-images" src={Css} alt="css-img"/>
-                    <h3>Css</h3>
-                    <h6>cascading style sheet</h6>
+                    <img className="reactNative-images" src={Reactjs} alt="reactNative-img"/>
+                    <h3>React Native</h3>
+                    <h6>for building mobile apps</h6>
                 </div>
                 </Col>
                 <Col lg={3} md={3} sm={3} xs={6}>

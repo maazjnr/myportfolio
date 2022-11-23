@@ -29,10 +29,10 @@ const Home = () => {
                 <p style={{color: "white"}}>Hi, my name is Maaz</p>
                 <hr />
                 <h1>I'm a Frontend <br />
-                    Web Developer</h1>
-                <p className="two-years">With over 2 years 
-                    of experience, i design awesome website & <br />
-                    dynamic web application using latest tools & 
+                    Web & Mobile Developer</h1>
+                <p className="two-years">With 2+ years 
+                    of experience, i design awesome website, <br />
+                    dynamic webapp & mobile application using latest tools & 
                     technologies. <br /> Passion to learn and  solve real world 
                     problems with my skills with the <br /> most useful
                      tools and technologies to get the perfect job done.

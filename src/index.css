@@ -252,6 +252,11 @@ background-color: #000000;
   height: 60px;
 }
 
+.reactNative-images {
+  width: 60px;
+  height: 50px;
+}
+
 .type-images{
   width: 71px;
   height: 70px;
@@ -276,6 +281,8 @@ background-color: #000000;
   border-radius: 20px;
   margin-top: 10px;
 }
+
+
 
 .html h3{
   color: white;
