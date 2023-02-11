@@ -4,6 +4,8 @@ import AbtImg from '../asset/abImg.jpg';
 import MyGoalImg from '../asset/mygoalLogo.jpg';
 import Javascript from '../asset/javascript.png';
 import Html from '../asset/html.png'
+import Flutter from '../asset/flutter1.png'
+import Dart from '../asset/Dart.png'
 import Css from '../asset/css.png';
 import GitHub from '../asset/git&github.png';
 import Typescript from '../asset/typescript.png';
@@ -73,9 +75,9 @@ const AboutMe = () => {
             <Row>
                 <Col lg={3} md={3} sm={3} xs={6}>
                 <div data-aos="zoom-in" className="html">
-                    <img className="pro-images" src={Html} alt="html-img"/>
-                    <h3>Html</h3>
-                    <h6>hypertext markup language</h6>
+                    <img style={{width: 100, borderRadius: 10}} src={Flutter} alt="html-img"/>
+                    <h3>Flutter</h3>
+                    <h6>Building Apps for ios & android</h6>
                 </div>
                 </Col>
 
@@ -83,7 +85,7 @@ const AboutMe = () => {
                 <div data-aos="fade-down" className="html">
                     <img className="reactNative-images" src={Reactjs} alt="reactNative-img"/>
                     <h3>React Native</h3>
-                    <h6>for building mobile apps</h6>
+                    <h6>for building mobile app for ios & android</h6>
                 </div>
                 </Col>
                 <Col lg={3} md={3} sm={3} xs={6}>
@@ -106,6 +108,15 @@ const AboutMe = () => {
             </Row>
 
             <Row className="row2" >
+            <Col lg={3} md={3} sm={3} xs={6}>
+                <div data-aos="flip-left" className="html">
+                    <img className="pro-images" src={Dart} alt="terminal-img"/>
+                    <h3>Dart</h3>
+                    <h6>Programming Language for for app an web development</h6>
+                </div>
+                </Col>
+
+                
                 <Col lg={3} md={3} sm={3} xs={6}>
                 <div data-aos="slide-up" className="html">
                     <img className="type-images" src={Typescript} alt="typescript-img"/>
@@ -121,13 +132,7 @@ const AboutMe = () => {
                     <h6>open source. version control tools</h6>
                 </div>
                 </Col>
-                <Col lg={3} md={3} sm={3} xs={6}>
-                <div data-aos="flip-left" className="html">
-                    <img className="pro-images" src={Termina} alt="terminal-img"/>
-                    <h3>Cmd/Terminal</h3>
-                    <h6>command line interface</h6>
-                </div>
-                </Col>
+    
                 <Col lg={3} md={3} sm={3} xs={6} >
                 <div data-aos="fade-up-left" className="html">
                     <img className="ph-images" src={Photoshop} alt="photoshop-img"/>
