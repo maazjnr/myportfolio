@@ -98,7 +98,7 @@ const AboutMe = () => {
                 <Col lg={3} md={3} sm={3} xs={6}>
                 <div data-aos="zoom-in-up" className="html">
                     <img className="pro-images" src={Reactjs} alt="js-img"/>
-                    <h3>React</h3>
+                    <h3>Reactjs</h3>
                     <h6>javascript framework for building
                         user interface
                     </h6>
@@ -116,7 +116,7 @@ const AboutMe = () => {
                 </div>
                 </Col>
 
-                
+
                 <Col lg={3} md={3} sm={3} xs={6}>
                 <div data-aos="slide-up" className="html">
                     <img className="type-images" src={Typescript} alt="typescript-img"/>
